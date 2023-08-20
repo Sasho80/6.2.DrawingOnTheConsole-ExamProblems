@@ -27,3 +27,43 @@ Input Output
 Hints and Guidelines
 Let’s solve the problem step by step: read the input, perform some calculations, print the fort roof, 
 print the fort body, print the fort base.
+
+02.Problem: Butterfly
+Write a program that takes an integer n from the console and draws a butterfly 2 * n - 1 columns
+wide and 2 * (n - 2) + 1 rows tall, as in the examples below. The left and right parts are n - 1 wide.
+Input Data
+The input is an integer n within the range [3 … 1000].
+Output Data
+Print on the console 2 * (n - 2) + 1 text rows, depicting the butterfly as in the examples.
+Sample Input and Output
+Input Output 
+3
+      *\ /*
+        @ 
+      */ \*
+Input Output
+5
+      ***\ /***
+      ---\ /---
+      ***\ /***
+          @ 
+      ***/ \***
+      ---/ \---
+      ***/ \***
+Input Output
+7
+      *****\ /*****
+      -----\ /-----
+      *****\ /*****
+      -----\ /-----
+      *****\ /*****
+            @ 
+      *****/ \*****
+      -----/ \-----
+      *****/ \*****
+      -----/ \-----
+      *****/ \*****
+Hints and Guidelines
+We can see in the explanation that the input data will be taken from only one row which contains an 
+integer within the range [3 … 1000]. This is why we will use a variable of int type.
+
