@@ -67,3 +67,42 @@ Hints and Guidelines
 We can see in the explanation that the input data will be taken from only one row which contains an 
 integer within the range [3 … 1000]. This is why we will use a variable of int type.
 
+03.Problem: "Stop" Sign
+Write a program that takes an integer n from the console and draws a warning sign STOP with size 
+as in the examples below.
+Input Data
+The input is an integer N within the range [3 … 1000].
+Output Data
+Print on the console text lines, which depict the warning sign STOP, as in the examples.
+Sample Input and Output
+Input Output 
+3
+      ...._______....
+      ...//_____\\...
+      ..//_______\\..
+      .//_________\\.
+      //___STOP!___\\
+      \\___________//
+      .\\_________//.
+      ..\\_______//..
+Input Output
+6
+      ......._____________.......
+      ......//___________\\......
+      .....//_____________\\.....
+      ....//_______________\\....
+      ...//_________________\\...
+      ..//___________________\\..
+      .//_____________________\\.
+      //_________STOP!_________\\
+      \\_______________________//
+      .\\_____________________//.
+      ..\\___________________//..
+      ...\\_________________//...
+      ....\\_______________//....
+      .....\\\___________//.....
+Hints and Guidelines
+We can see from the explanation that the input data will come from only one line which contains an 
+integer within the range [3 … 1000]. Therefore, we will use a variable of int type.
+
+
