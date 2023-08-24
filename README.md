@@ -105,4 +105,55 @@ Hints and Guidelines
 We can see from the explanation that the input data will come from only one line which contains an 
 integer within the range [3 … 1000]. Therefore, we will use a variable of int type.
 
+04.Problem: Arrow
+Write a program that takes from the console an integer n and draws a vertical arrow with size as in 
+the examples below.
+Sample Input and Output
+Input Output 
+3
+      .###.
+      .#.#.
+      ##.##
+      .#.#.
+      ..#..
+Input Output 
+5
+      ..#####..
+      ..#...#..
+      ..#...#..
+      ..#...#..
+      ###...###
+      .#.....#.
+      ..#...#..
+      ...#.#...
+      ....#....
+Input Output 
+9
+      ....#########....
+      ....#.......#....
+      ....#.......#....
+      ....#.......#....
+      ....#.......#....
+      ....#.......#....
+      ....#.......#....
+      ....#.......#....
+      #####.......#####
+      .#.............#.
+      ..#...........#..
+      ...#.........#...
+      ....#.......#....
+      .....#.....#.....
+      ......#...#......
+      .......#.#.......
+      ........#........
+Input Data
+The input is an odd integer n within the range [3 … 79].
+Output Data
+Print a vertical arrow on the console, in which "#" (number sign) marks the outline of the arrow, and 
+"." – the rest.
+Hints and Guidelines
+From the explanation we see that the input data will be read from one input line only, which will 
+contain an integer within the range [3 … 1000]. This is why we will use a variable of int type.
+
+
 
