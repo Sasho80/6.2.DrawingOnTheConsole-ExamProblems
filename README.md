@@ -155,5 +155,52 @@ Hints and Guidelines
 From the explanation we see that the input data will be read from one input line only, which will 
 contain an integer within the range [3 … 1000]. This is why we will use a variable of int type.
 
+05.Problem: Axe
+Write a program that takes an integer n and draws an axe with size as shown below. The width of the 
+axe is 5 * N columns.
+Sample Input and Output
 
+Input Output 
+2      ------**--
+       ------*-*-
+       *******-*-
+       ------***- 
+
+Input Output 
+5
+      ---------------**--------
+      ---------------*-*-------
+      ---------------*--*------
+      ---------------*---*-----
+      ---------------*----*----
+      ****************----*----
+      ****************----*----
+      ---------------*----*----
+      --------------********---
+
+Input Output 
+8
+      ------------------------**--------------
+      ------------------------*-*-------------
+      ------------------------*--*------------
+      ------------------------*---*-----------
+      ------------------------*----*----------
+      ------------------------*-----*---------
+      ------------------------*------*--------
+      ------------------------*-------*-------
+      *************************-------*-------
+      *************************-------*-------
+      *************************-------*-------
+      *************************-------*-------
+      ------------------------*-------*-------
+      -----------------------*---------*------
+      ----------------------*-----------*-----
+      ---------------------***************----
+Input Data
+The input is an integer n in the range [2...42].
+Output Data
+Print an axe on the console as in the examples.
+Hints and Guidelines
+In order to solve the problem, we first need to calculate the dashes in the left, the middle dashes, the 
+dashes in the right and the whole length of the figure.
 
